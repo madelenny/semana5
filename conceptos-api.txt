@@ -1,0 +1,7 @@
+1. Esta es una ruta de tipo POST configurada en el endpoint /reporte. Su funcionamiento consiste en:
+
+Recibir datos: Escucha las peticiones que envían información al servidor (específicamente espera un objeto que contenga un mensaje dentro del cuerpo de la petición o req.body).
+Procesar: Extrae ese mensaje y lo almacena en una constante.
+Responder: Envía una respuesta al cliente en formato JSON confirmando que el reporte fue recibido con éxito (estado: "Reporte recibido") y devuelve el mismo mensaje para confirmar qué fue lo que se procesó.
+
+2. En un entorno comunitario, esta ruta es fundamental para la interacción de los usuarios con la administración o el sistema.
